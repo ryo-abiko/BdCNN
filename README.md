@@ -7,13 +7,13 @@ Ryo Abiko, and Masaaki Ikehara. "Blind Denoising of Mixed Gaussian-impulse Noise
 |:--:|:--:|:--:|
 |<img src="noisy_image.png" width=70%>|<img src="denoised_image.png" width=70%>|<img src="barbara.png" width=70%>|
 
-## Usage
-Our code is based on MATLAB.
-If GPU is available, MATLAB will run the code on GPU automatically.
+## Requirements
+- MATLAB ( < R2019a)
 
+## Usage
 run `demo.m`
 
-To select the GPU, run `gpuDevice(number)` before running the demo file.
+If GPU is available, MATLAB will run the code on GPU automatically. To select the GPU, run `gpuDevice(number)` before running the demo file.
 
 ## Citation
 Please cite this paper if you use this code. 
