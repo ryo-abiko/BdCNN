@@ -24,7 +24,7 @@ impulse_noise_rate = 20;
 sap_noise_rate = 5;
 
 %% make noisy image
-image = im2single(imread('barbara.png'));
+image = im2single(imread('images/barbara.png'));
 noisy_image = image;
 % gaussian
 noisy_image = noisy_image + (gaussian_noise_sigma/255) * randn(size(image));
@@ -51,6 +51,6 @@ subplot(133)
 imshow(denoised_image)
 title('denoised image')
 
-imwrite(noisy_image,'noisy_image.png')
-imwrite(denoised_image,'denoised_image.png')
+imwrite(noisy_image,'images/noisy_image.png')
+imwrite(denoised_image,'images/denoised_image.png')
 

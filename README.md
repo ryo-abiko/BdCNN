@@ -5,7 +5,7 @@ Ryo Abiko, and Masaaki Ikehara. "Blind Denoising of Mixed Gaussian-impulse Noise
 
 |Noisy image|Denoised image|Ground truth image|
 |:--:|:--:|:--:|
-|<img src="noisy_image.png" width=70%>|<img src="denoised_image.png" width=70%>|<img src="barbara.png" width=70%>|
+|<img src="images/noisy_image.png" width=70%>|<img src="images/denoised_image.png" width=70%>|<img src="images/barbara.png" width=70%>|
 
 ## Requirements
 - MATLAB ( < R2019a)

@@ -1,3 +1,4 @@
+% Use this code when training
 
 training_image_list = {};
 for a=1000:2:1200
